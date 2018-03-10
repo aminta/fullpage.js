@@ -4,10 +4,10 @@
 
 <p align="center">
   <span>English</span> |
-  <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/spanish#fullpagejs">Spanish</a> |
-  <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/russian#fullpagejs">Russian</a> |
-  <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese#fullpagejs">Chinese</a> |
-  <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/korean#fullpagejs">Korean</a>
+  <a href="https://github.com/aminta/fullpage.js/tree/master/lang/spanish#fullpagejs">Spanish</a> |
+  <a href="https://github.com/aminta/fullpage.js/tree/master/lang/russian#fullpagejs">Russian</a> |
+  <a href="https://github.com/aminta/fullpage.js/tree/master/lang/chinese#fullpagejs">Chinese</a> |
+  <a href="https://github.com/aminta/fullpage.js/tree/master/lang/korean#fullpagejs">Korean</a>
 </p>
 
 
@@ -24,7 +24,7 @@
 - [Live demo](http://alvarotrigo.com/fullPage/)
 - [Wordpress theme](http://alvarotrigo.com/fullPage/utils/wordpress.html)
 - [fullpage.js Extensions](http://alvarotrigo.com/fullPage/extensions/)
-- [Frequently Answered Questions](https://github.com/alvarotrigo/fullPage.js/wiki/FAQ---Frequently-Answered-Questions)
+- [Frequently Answered Questions](https://github.com/aminta/fullpage.js/wiki/FAQ---Frequently-Answered-Questions)
 
 ---
 
@@ -36,26 +36,26 @@ Invite me to a coffee
 
 Customizations of the library and urgent changes are available upon request for some reasonable price. <a href="http://alvarotrigo.com/#contact-page">Contact me</a>.
 
-- [Introduction](https://github.com/alvarotrigo/fullPage.js#introduction)
-- [Compatibility](https://github.com/alvarotrigo/fullPage.js#compatibility)
-- [Usage](https://github.com/alvarotrigo/fullPage.js#usage)
-  - [Creating links to sections or slides](https://github.com/alvarotrigo/fullPage.js#creating-links-to-sections-or-slides)
-  - [Creating smaller or bigger sections](https://github.com/alvarotrigo/fullPage.js#creating-smaller-or-bigger-sections)
-  - [State classes added by fullpage.js](https://github.com/alvarotrigo/fullPage.js#state-classes-added-by-fullpagejs)
-  - [Lazy loading](https://github.com/alvarotrigo/fullPage.js#lazy-loading)
-  - [Auto play/pause embedded media](https://github.com/alvarotrigo/fullPage.js#auto-playpause-embedded-media)
-  - [Use extensions](https://github.com/alvarotrigo/fullPage.js#use-extensions)
-- [Options](https://github.com/alvarotrigo/fullPage.js#options)
-- [Methods](https://github.com/alvarotrigo/fullPage.js#methods)
-- [Callbacks](https://github.com/alvarotrigo/fullPage.js#callbacks)
-- [Reporting issues](https://github.com/alvarotrigo/fullPage.js#reporting-issues)
-- [Contributing to fullpage.js](https://github.com/alvarotrigo/fullPage.js#contributing-to-fullpagejs)
-- [Changelog](https://github.com/alvarotrigo/fullPage.js#changelog)
-- [Build tasks](https://github.com/alvarotrigo/fullPage.js#build-tasks)
-- [Resources](https://github.com/alvarotrigo/fullPage.js#resources)
-- [Who is using fullpage.js](https://github.com/alvarotrigo/fullPage.js#who-is-using-fullpagejs)
-- [Donations](https://github.com/alvarotrigo/fullPage.js#donations)
-- [License](https://github.com/alvarotrigo/fullPage.js#license)
+- [Introduction](https://github.com/aminta/fullpage.js#introduction)
+- [Compatibility](https://github.com/aminta/fullpage.js#compatibility)
+- [Usage](https://github.com/aminta/fullpage.js#usage)
+  - [Creating links to sections or slides](https://github.com/aminta/fullpage.js#creating-links-to-sections-or-slides)
+  - [Creating smaller or bigger sections](https://github.com/aminta/fullpage.js#creating-smaller-or-bigger-sections)
+  - [State classes added by fullpage.js](https://github.com/aminta/fullpage.js#state-classes-added-by-fullpagejs)
+  - [Lazy loading](https://github.com/aminta/fullpage.js#lazy-loading)
+  - [Auto play/pause embedded media](https://github.com/aminta/fullpage.js#auto-playpause-embedded-media)
+  - [Use extensions](https://github.com/aminta/fullpage.js#use-extensions)
+- [Options](https://github.com/aminta/fullpage.js#options)
+- [Methods](https://github.com/aminta/fullpage.js#methods)
+- [Callbacks](https://github.com/aminta/fullpage.js#callbacks)
+- [Reporting issues](https://github.com/aminta/fullpage.js#reporting-issues)
+- [Contributing to fullpage.js](https://github.com/aminta/fullpage.js#contributing-to-fullpagejs)
+- [Changelog](https://github.com/aminta/fullpage.js#changelog)
+- [Build tasks](https://github.com/aminta/fullpage.js#build-tasks)
+- [Resources](https://github.com/aminta/fullpage.js#resources)
+- [Who is using fullpage.js](https://github.com/aminta/fullpage.js#who-is-using-fullpagejs)
+- [Donations](https://github.com/aminta/fullpage.js#donations)
+- [License](https://github.com/aminta/fullpage.js#license)
 
 ## Introduction
 Suggestion are more than welcome, not only for feature requests but also for coding style improvements.
@@ -89,7 +89,7 @@ bower install fullpage.js
 // With npm
 npm install fullpage.js
 ```
- 
+
 ### Including files:
 ```html
 <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
@@ -139,7 +139,7 @@ In order to create a landscape slider within a section, each slide will be defin
 	<div class="slide"> Slide 4 </div>
 </div>
 ````
-You can see a fully working example of the HTML structure in the [`demoPage.html` file](https://github.com/alvarotrigo/fullPage.js/blob/master/examples/demoPage.html).
+You can see a fully working example of the HTML structure in the [`demoPage.html` file](https://github.com/aminta/fullpage.js/blob/master/examples/demoPage.html).
 
 ### Initialization
 All you need to do is call fullPage.js inside a `$(document).ready` function:
@@ -154,7 +154,7 @@ A more complex initialization with all options set could look like this:
 ```javascript
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-	    //Header
+        //Header
 	    considerHeader: false,
 	    header: null,
         
@@ -329,9 +329,9 @@ Embedded HTML5 `<video>` / `<audio>`  and Youtube iframes are automatically paus
 ```
 
 ### Use extensions
-fullpage.js [provides a set of extensions](http://alvarotrigo.com/fullPage/extensions/) you can use to enhance its default features. All of them are listed as [fullpage.js options](https://github.com/alvarotrigo/fullPage.js#options).
+fullpage.js [provides a set of extensions](http://alvarotrigo.com/fullPage/extensions/) you can use to enhance its default features. All of them are listed as [fullpage.js options](https://github.com/aminta/fullpage.js#options).
 
-Extensions requires you to use the minified file [`jquery.fullpage.extensions.min.js`](https://github.com/alvarotrigo/fullPage.js/blob/master/dist/jquery.fullpage.extensions.min.js) that is inside the [`dist` folder](https://github.com/alvarotrigo/fullPage.js/tree/master/dist) instead of the usual fullPage.js file (`jquery.fullpage.js` or `jquery.fullpage.min.js`).
+Extensions requires you to use the minified file [`jquery.fullpage.extensions.min.js`](https://github.com/aminta/fullpage.js/blob/master/dist/jquery.fullpage.extensions.min.js) that is inside the [`dist` folder](https://github.com/aminta/fullpage.js/tree/master/dist) instead of the usual fullPage.js file (`jquery.fullpage.js` or `jquery.fullpage.min.js`).
 
 Once you adquire the extension file, you will need to add it before fullPage. For example, if I want to use the Continuous Horizontal extension, I would have include the extension file and then the extensions version of the fullPage file.
 
@@ -340,9 +340,9 @@ Once you adquire the extension file, you will need to add it before fullPage. Fo
 <script type="text/javascript" src="fullpage/jquery.fullpage.extensions.min.js"></script>
 ```
 
-An activation key and a license key will be required for each extension. [See more details about it here](https://github.com/alvarotrigo/fullPage.js/wiki/How-to-activate-a-fullPage.js-extension).
+An activation key and a license key will be required for each extension. [See more details about it here](https://github.com/aminta/fullpage.js/wiki/How-to-activate-a-fullPage.js-extension).
 
-Then you will be able to use and configure them as explained in [options](https://github.com/alvarotrigo/fullPage.js#options).
+Then you will be able to use and configure them as explained in [options](https://github.com/aminta/fullpage.js#options).
 
 ## Options
 
@@ -472,7 +472,7 @@ $('#fullpage').fullpage({
 - `slidesNavPosition`: (default `bottom`) Defines the position for the landscape navigation bar for sliders. Admits `top` and `bottom` as values. You may want to modify the CSS styles to determine the distance from the top or bottom as well as any other style such as color.
 
 - `scrollOverflow`: (default `false`) (not compatible with IE 8) defines whether or not to create a scroll for the section/slide in case its content is bigger than the height of it. When set to `true`, your content will be wrapped by the plugin. Consider using delegation or load your other scripts in the `afterRender` callback.
-In case of setting it to `true`, it requires the vendor library [`scrolloverflow.min.js`](https://github.com/alvarotrigo/fullPage.js/blob/master/vendors/scrolloverflow.min.js). This file has to be loaded before the fullPage.js plugin, but after jQuery.
+In case of setting it to `true`, it requires the vendor library [`scrolloverflow.min.js`](https://github.com/aminta/fullpage.js/blob/master/vendors/scrolloverflow.min.js). This file has to be loaded before the fullPage.js plugin, but after jQuery.
 For example:
 
 ```html
@@ -498,11 +498,11 @@ You can also prevent scrolloverflow from getting applied on responsive mode when
 
 - `responsiveSlides`: (default `false`) [Extension of fullpage.js](http://alvarotrigo.com/fullPage/extensions/). When set to `true` slides will be turned into vertical sections when responsive mode is fired. (by using the `responsiveWidth` or `responsiveHeight` options detailed above). Requires fullpage.js >= 2.8.5.
 
-- `parallax`: (default `false`) [Extension of fullpage.js](http://alvarotrigo.com/fullPage/extensions/). Defines whether or not to use the parallax backgrounds effects on sections / slides. [Read more about how to apply the parallax option](https://github.com/alvarotrigo/fullPage.js/wiki/Extension---Parallax).
+- `parallax`: (default `false`) [Extension of fullpage.js](http://alvarotrigo.com/fullPage/extensions/). Defines whether or not to use the parallax backgrounds effects on sections / slides. [Read more about how to apply the parallax option](https://github.com/aminta/fullpage.js/wiki/Extension---Parallax).
 
-- `parallaxOptions`: (default: `{ type: 'reveal', percentage: 62, property: 'translate'}`). Allows to configure the parameters for the parallax backgrounds effect when using the option parallax:true. [Read more about how to apply the parallax option](https://github.com/alvarotrigo/fullPage.js/wiki/Extension---Parallax).
+- `parallaxOptions`: (default: `{ type: 'reveal', percentage: 62, property: 'translate'}`). Allows to configure the parameters for the parallax backgrounds effect when using the option parallax:true. [Read more about how to apply the parallax option](https://github.com/aminta/fullpage.js/wiki/Extension---Parallax).
 
-- `lazyLoading`: (default `true`) Lazy loading is active by default which means it will lazy load any media element containing the attribute `data-src` as detailed in the [Lazy Loading docs](https://github.com/alvarotrigo/fullPage.js#lazy-loading) . If you want to use any other lazy loading library you can disable this fullpage.js feature.
+- `lazyLoading`: (default `true`) Lazy loading is active by default which means it will lazy load any media element containing the attribute `data-src` as detailed in the [Lazy Loading docs](https://github.com/aminta/fullpage.js#lazy-loading) . If you want to use any other lazy loading library you can disable this fullpage.js feature.
 
 ## Methods
 You can see them in action [here](http://alvarotrigo.com/fullPage/examples/methods.html)
@@ -537,7 +537,7 @@ $.fn.fullpage.moveTo(3);
 ---
 ### silentMoveTo(section, slide)
 [Demo](http://codepen.io/alvarotrigo/pen/doqOeY)
-Exactly the same as [`moveTo`](https://github.com/alvarotrigo/fullPage.js#movetosection-slide) but in this case it performs the scroll without animation. A direct jump to the destination.
+Exactly the same as [`moveTo`](https://github.com/aminta/fullpage.js#movetosection-slide) but in this case it performs the scroll without animation. A direct jump to the destination.
 ```javascript
 /*Scrolling to the section with the anchor link `firstSlide` and to the 2nd Slide */
 $.fn.fullpage.silentMoveTo('firstSlide', 2);
@@ -760,7 +760,7 @@ $('#fullpage').fullpage({
 
 ---
 ### afterRender()
-This callback is fired just after the structure of the page is generated. This is the callback you want to use to initialize other plugins or fire any code which requires the document to be ready (as this plugin modifies the DOM to create the resulting structure). See [FAQs](https://github.com/alvarotrigo/fullPage.js/wiki/FAQ---Frequently-Answered-Questions) for more info.
+This callback is fired just after the structure of the page is generated. This is the callback you want to use to initialize other plugins or fire any code which requires the document to be ready (as this plugin modifies the DOM to create the resulting structure). See [FAQs](https://github.com/aminta/fullpage.js/wiki/FAQ---Frequently-Answered-Questions) for more info.
 
 Example:
 
@@ -873,22 +873,22 @@ $('#fullpage').fullpage({
 ```
 
 #### Cancelling a move before it takes place
-You can cancel a move by returning `false` on the `onSlideLeave` callback. [Same as when canceling a movement with `onLeave`](https://github.com/alvarotrigo/fullPage.js#cancelling-the-scroll-before-it-takes-place).
+You can cancel a move by returning `false` on the `onSlideLeave` callback. [Same as when canceling a movement with `onLeave`](https://github.com/aminta/fullpage.js#cancelling-the-scroll-before-it-takes-place).
 
 # Reporting issues
 1. Please, look for your issue before asking using the github issues search.
 2. Make sure you use the latest fullpage.js version. No support is provided for older versions.
-3. Use the [the Github Issues forum](https://github.com/alvarotrigo/fullPage.js/issues) to create issues.
+3. Use the [the Github Issues forum](https://github.com/aminta/fullpage.js/issues) to create issues.
 4. **An isolated reproduction of the issue will be required.** Make use of [jsfiddle](http://jsfiddle.net/97tbk/418/) or [codepen](http://codepen.io/alvarotrigo/pen/NxyPPp) for it if possible.
 
 # Contributing to fullpage.js
-Please see [Contributing to fullpage.js](https://github.com/alvarotrigo/fullPage.js/wiki/Contributing-to-fullpage.js)
+Please see [Contributing to fullpage.js](https://github.com/aminta/fullpage.js/wiki/Contributing-to-fullpage.js)
 
 # Changelog
-To see the list of recent changes, see [Releases section](https://github.com/alvarotrigo/fullPage.js/releases).
+To see the list of recent changes, see [Releases section](https://github.com/aminta/fullpage.js/releases).
 
 # Build tasks
-Want to build fullpage.js distribution files? Please see [Build Tasks](https://github.com/alvarotrigo/fullPage.js/wiki/Build-tasks)
+Want to build fullpage.js distribution files? Please see [Build Tasks](https://github.com/aminta/fullpage.js/wiki/Build-tasks)
 
 # Resources
 - [Wordpress theme](https://alvarotrigo.com/fullPage/utils/wordpress.html)
