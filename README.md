@@ -10,6 +10,9 @@
   <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/korean#fullpagejs">Korean</a>
 </p>
 
+
+**This is a little modified version of fullPage.js with added option to take in account the website header when calculating the fullheight of each section. Included there is the scrolloverflow.js version updated by [Alen Liang](https://github.com/aalenliang/fullpage-with-webpack-demo) to correctly work with WebPack and by me to properly receive the new header option**
+
 ---
 
 ![fullPage.js version](http://img.shields.io/badge/fullPage.js-v2.9.6-brightgreen.svg)
@@ -151,6 +154,10 @@ A more complex initialization with all options set could look like this:
 ```javascript
 $(document).ready(function() {
 	$('#fullpage').fullpage({
+	    //Header
+	    considerHeader: false,
+	    header: null,
+        
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
@@ -338,6 +345,10 @@ An activation key and a license key will be required for each extension. [See mo
 Then you will be able to use and configure them as explained in [options](https://github.com/alvarotrigo/fullPage.js#options).
 
 ## Options
+
+- `considerHeader`: (default `false`) Determines whether to consider the header height in the computation of a full height section.
+
+- `header`: (default: `null`) Define the website header used to compute the correct height of the section if `considerHeader` is set to `true`. It requires a string with the jQuery selectors for the website header. 
 
 - `controlArrows`: (default `true`) Determines whether to use control arrows for the slides to move right or left.
 
