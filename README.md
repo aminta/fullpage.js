@@ -348,7 +348,7 @@ Then you will be able to use and configure them as explained in [options](https:
 
 - `considerHeader`: (default `false`) Determines whether to consider the header height in the computation of a full height section.
 
-- `header`: (default: `null`) Define the website header used to compute the correct height of the section if `considerHeader` is set to `true`. It requires a string with the jQuery selectors for the website header. 
+- `header`: (default: `null`) Define the website header used to compute the correct height of the section if `considerHeader` is set to `true`. It requires a string with the jQuery selector for the website header. 
 
 - `controlArrows`: (default `true`) Determines whether to use control arrows for the slides to move right or left.
 
