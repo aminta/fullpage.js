@@ -89,7 +89,7 @@ bower install fullpage.js
 // With npm
 npm install fullpage.js
 ```
-
+ 
 ### Including files:
 ```html
 <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
