@@ -5,6 +5,8 @@
  *
  * Copyright (C) 2015 alvarotrigo.com - A project by Alvaro Trigo
  */
+import $ from "jquery";
+
 (function(global, factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -443,7 +445,7 @@
         /**
          * When resizing is finished, we adjust the slides sizes and positions
          */
-        function reBuild(resizing){
+        function reBuild(resizing, isResizingHeader, newHeaderHeight){
             if(container.hasClass(DESTROYED)){ return; }  //nothing to do if the plugin was destroyed
 
             isResizing = true;
@@ -462,6 +464,11 @@
                 }
 
                 $(this).css('height', windowsHeight + 'px');
+
+                // ADDED BY ME
+                if(isResizingHeader) {
+                    $(this).css('padding-top', newHeaderHeight);
+                }
 
                 //adjusting the position fo the FULL WIDTH slides...
                 if (slides.length > 1) {
@@ -485,6 +492,8 @@
             isResizing = false;
             $.isFunction( options.afterResize ) && resizing && options.afterResize.call(container);
             $.isFunction( options.afterReBuild ) && !resizing && options.afterReBuild.call(container);
+
+
         }
 
         /**
