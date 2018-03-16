@@ -13,7 +13,7 @@
 
 **This is a little modified version of fullPage.js with added options:**
 
--**take in account the website header when calculating the fullheight of each section. Included there is the scrolloverflow.js version updated by [Alen Liang](https://github.com/aalenliang/fullpage-with-webpack-demo) to correctly work with WebPack and by me to properly receive the new header option**
+-**take in account the website header when calculating the fullheight of each section. Included there is the scrolloverflow.js version updated by [Alen Liang](https://github.com/aalenliang/fullpage-with-webpack-demo) to correctly work with WebPack and by me to properly receive the new header options:  `considerHeader` (`boolean`) and `header` (Css selector in a `string`)**
 
 -**$.fn.fullpage.reBuild() method now accepts (in addition to the inner "resizing" parameter) the parameters `isResizingHeader` (`boolean`, set it true if you have an header that resizes itself on scrolling) and `newHeaderHeight` (`string`: pass the value of the updated `paddingTop` option in the form of `200px`)**
 
